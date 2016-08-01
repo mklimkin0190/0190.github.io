@@ -7,6 +7,18 @@ body {
   font-weight:300;
 }
 
+body #switch {
+  cursor: pointer;
+  color:#39c;
+  font-weight:400;
+}
+
+body #switch.english {
+  font-weight:200;
+}
+
+
+
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
