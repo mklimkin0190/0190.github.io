@@ -51,7 +51,7 @@
       postFix = window.location.href.split('#')[1];
       params = (postFix ? pairsArrayToObj(postFix.split('&').map(function (pr) {return pr.split('=');})) : null);
       lang = params && params.lang && langs.indexOf(params.lang) > -1 ? params.lang : langs[0];
-      initLang(lang);
+      setTimeout(() => initLang(lang));
     </script>
   </head>
   <body>
@@ -59,8 +59,7 @@
       <header>
         <h1>Masha Klimkin</h1>
 
-        <img src="images/Masha_Klimkin.jpg"/>
-            <p>Software Engineering</p>
+        <p>Software Engineering</p>
 
         <p class="view">Phone: <a href="tel://+79638542996">+79638542996</a><br/>
         Email: <a href="mailto:mklimkina@gmail.com">mklimkina@gmail.com</a><br/>
@@ -81,21 +80,20 @@
 
             <h3>Looking for a job</h3>
             <p><strong>Mathematics graduate</strong> (major in <strong>Computer Mathematics</strong>), experienced in <strong>ReactJS</strong>, <strong>Angular</strong>, <strong>NodeJS</strong>, <strong>RoR</strong>, <strong>Ruby</strong>, <strong>Javascript</strong>, <strong>HTML5</strong>, <strong>CSS3</strong> looking for a job as <strong>Full Stack Developer</strong>.</p>
-            <p>I'm a team player, I pay a lot of attention to details. I know how to balance perfectionistic tendencies and meeting hard deadlines.</p>
-
+ 
             <h3>Work Experience:</h3>
 
-            <h4>Full Stack Developer at <a href='https://spectory.com'>Spectory</a> (since December 2014)</h4>
+            <h4>Full Stack Developer at <a href='https://spectory.com'>Spectory</a> (December 2014 – March 2022)</h4>
             <p>Web Development (ReactJS, NodeJS, Angular, AngularJS, Ruby on Rails, HTML5, CSS3), Cross Platform Mobile Development. What I did:
             <ul>
-                <li>Worked on projects for various clients such as <a href='https://similarweb.com'>SimilarWeb</a>, <a href='https://www.amenityanalytics.com/'>Amenity Analytics</a>, <a href='https://yonalink.com/'>YonaLink</a>, <a href='https://www.albume.co.il/'>Albume</a>, and a bunch of other Israeli and American startups in different fields (data analysis, healthcare, eCommerce, IoT,  etc).</li>
+                <li>Worked on projects for various clients such as <a href='https://similarweb.com'>SimilarWeb</a>, <a href='https://www.amenityanalytics.com/'>Amenity Analytics</a>, <a href='https://yonalink.com/'>YonaLink</a>, <a href='https://www.albume.co.il/'>Albume</a>, and a bunch of other Israeli and American startups in different fields (data analysis, healthcare, eCommerce, IoT, etc).</li>
                 <li>Performed as a team leader for some of those projects.</li>
                 <li>Engaged in a full range of activities including product design, architecture, development, testing, continuous delivery, writing documentation and release notes, DevOps and support.</li>
                 <li>Led and participated in designing the company onboarding process.</li>
                 <li>Occasionally wrote company tech blog posts and mini-tutorials.</li>
             </ul>
 
-            <h4>Co-founder, Product Manager, QA and content manager at Ogoloda.li (2010-2014)</h4>
+            <h4>Co-founder, Product Manager, QA and content manager at Ogoloda.li (2010 – 2014)</h4>
             <p>Co-founder of a web search application for food recipes, which served more than 4,000,000 users over 4 years. What I did:</p>
             <ul>
                 <li>managed the product</li>
@@ -106,30 +104,18 @@
                 <li>made a lot of nice pictures</li>
             </ul>
 
-            <h4>Translator and media analyst at PressIndex (2014-2015)</h4>
+            <h4>Translator and media analyst at PressIndex (2014 – 2015)</h4>
             <h4>Photographer at <a href="http://wikihow.com">Wikihow</a> (2013)</h4>
-            <h4>Article writer and translator at LOLWUT (2010-2012)</h4>
+            <h4>Article writer and translator at LOLWUT (2010 – 2012)</h4>
 
             <h3>Education:</h3>
 
-            <p><strong>BSc of Mathematics</strong>, specialisation <strong>Computer Mathematics</strong> (2012) in Ural Federal University, Yekaterinburg, Russia (one of the Top 10 Russian Universities)</p>
-            <h4>Relevant coursework:</h4>
-            <ul>
-                <li>Computer Science</li>
-                <li>Object Oriented Programming</li>
-                <li>Programming Practices</li>
-                <li>Computational Complexity</li>
-                <li>Graph Algorithms</li>
-                <li>Databases</li>
-                <li>Operating Systems</li>
-                <li>Unix OS</li>
-            </ul>
+            <p><strong>BSc of Mathematics</strong>, specialisation <strong>Computer Mathematics</strong> (2011) in Ural Federal University, Yekaterinburg, Russia (one of the Top 10 Russian Universities)</p>
             <h4>Other courses:</h4>
             <ul>
                 <li>Programming Languages at Coursera</li>
                 <li>Software Testing at Udacity</li>
                 <li>Software Testing with Selenium at Pluralsight</li>
-                <li>Various programming language courses</li>
             </ul>
 
             <h3>Technologies:</h3>
@@ -137,11 +123,9 @@
             <ul>
                 <li>ReactJS</li>
                 <li>NodeJS</li>
-                <li>AngularJS</li>
-                <li>Angular</li>
+                <li>AngularJS/Angular</li>
                 <li>PostgreSQL</li>
-                <li>RoR</li>
-                <li>Ruby</li>
+                <li>Ruby/RoR</li>
                 <li>Git</li>
                 <li>HTML/CSS</li>
                 <li>Unix</li>
