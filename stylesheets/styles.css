@@ -108,7 +108,7 @@ img {
 }
 
 header {
-  width:270px;
+  width:200px;
   float:left;
   position:fixed;
 }
@@ -172,7 +172,7 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:570px;
   float:right;
   padding-bottom:50px;
 }
